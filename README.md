@@ -33,6 +33,11 @@ Client configuration file .ovpn will be created in `/root` directory
 Don't forget to update client configuration file with the correct port number (because mapping is configured on WiFi router not here)
 
 
+## Add a client
+
+To add a client run `build.sh` again, choose `1) Add a new user`
+
+
 ## Start OpenVPN server
 ```shell
 docker run -d --name openvpn --restart=unless-stopped \
